@@ -1,0 +1,575 @@
+*{
+   
+    margin: 0;
+ padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    padding: 15px;
+    position: sticky;
+    background: rgba(0, 0, 0, 0.96);
+    top: 0px;
+}
+
+
+.stem{
+    background: linear-gradient(317deg, rgba(96,18,217,1) 11%, rgba(255,0,153,1) 100%);;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    font-size: 100px;
+    color: seashell;
+    margin-left: 350px;
+    
+    font-weight: 1000;
+}
+
+.background{
+    background:rgba(0, 0, 0, 0.94);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.ff li{
+    list-style: none;
+    color: whitesmoke;
+    margin-left: 30px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.li1{
+    
+    align-items: center;
+    margin-left: 330px;
+    display: flex;
+}
+
+.que{
+    background: linear-gradient(317deg, rgba(96,18,217,1) 11%, rgba(255,0,153,1) 100%);;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    font-size:40px ;
+    font-weight: 550;
+    margin-left: 60px;
+    color: snow;
+}
+.about{
+    
+    margin-top:15px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 60px;
+    color: snow;
+    margin-right: 40px;
+
+}
+
+.anser{
+    display: flex;
+}
+
+.pic2{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 2px 2px;
+    border: gray double 3px;
+    border-radius: 8px;
+    
+    background: linear-gradient(317deg, rgba(96,18,217,1) 11%, rgba(255,0,153,1) 100%);;
+}
+
+
+
+.top:hover{
+    font-size: 34px;
+    margin-left: 1025px;
+    
+    background: linear-gradient(black,whitesmoke);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    border: grey double 7px;
+    margin-right: 75px;
+
+    
+}
+
+.career{
+    background: linear-gradient(317deg, rgba(96,18,217,1) 11%, rgba(255,0,153,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    font-size:40px ;
+    font-weight: 550;
+    margin-left: 60px;
+    color: snow;
+    margin-bottom: 15px;
+}
+
+.benefits{
+    background: linear-gradient(317deg, rgba(96,18,217,1) 11%, rgba(255,0,153,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    font-size:40px ;
+    font-weight: 550;
+    margin-left: 60px;
+    color: snow;
+
+    margin-top: 20px;
+    margin-bottom:15px;
+}
+
+.female{
+    background: linear-gradient(317deg, rgba(96,18,217,1) 11%, rgba(255,0,153,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    font-size:40px ;
+    font-weight: 550;
+    margin-left: 60px;
+    color: snow;
+}
+
+.courses{
+    background: linear-gradient(317deg, rgba(96,18,217,1) 11%, rgba(255,0,153,1) 100%);;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    font-size:40px ;
+    font-weight: 550;
+    margin-left: 60px;
+    color: snow;
+}
+
+.main{
+    margin-top: 80px;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+
+    
+
+
+.up{
+    position: fixed;
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+
+    border-radius: 50%;
+    background-color:white;
+    outline: none;
+    cursor: pointer;
+
+    right: 30px;
+    bottom: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+.up:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.defination{
+    font-size: 30px;
+    font-weight: 600;
+    
+    background: linear-gradient(317deg, rgba(96,18,217,1) 11%, rgba(255,0,153,1) 100%);;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    outline: none;
+    cursor: pointer;
+    margin-left: 38px;
+
+    border:silver solid 3px;
+    border-radius: 5%;
+    
+}
+
+.defination:hover{
+    background-color: gray;
+    color: whitesmoke;
+    font-size: 32px;
+    border:4px grey solid; 
+}
+
+.head{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 510px;
+    color: snow;   
+}
+
+.ex{
+    margin: 10px 40px 40px 0px;
+    font-size: 23px;
+    color: whitesmoke;
+    margin-left: 60px;
+}
+
+.a{
+    display: flex;
+}
+
+.im{
+    margin-left: 60px;
+    margin-top: 60px;
+    border: gray double 4px;
+    padding: 2px 2px;
+}
+
+.head2{
+    margin-top: 90px;
+    margin-bottom: 65px;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 60px;
+    color: snow;   
+}
+
+.link{
+    color: rgba(255,0,153,1);
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+}
+.link:hover{
+    color: rgb(208, 8, 235);
+}
+
+.pr{
+    font-size: 32px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-left: 160px;
+    margin-bottom: 10px;
+}
+
+.pra{
+    font-size: 28px;
+    color: whitesmoke;
+    margin-left: 160px;
+    
+}
+
+.end{
+    padding-top: 4%
+}
+.copy{
+    background-color: rgba(0, 0, 0, 0.8);
+     font-size:25px; 
+     padding-left: 35%; 
+     padding-top: 50px; 
+     padding-bottom: 50px;
+}
+
+@media(max-width:1220px){
+    .defination{
+        font-size: 22px;
+        margin-left: 70px;
+    }
+    .defination:hover{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:1160px){
+    .nav{
+        display: none;
+    }
+    .stem{
+        margin-left: 250px;
+    }
+    .li1{
+        margin-left: 210px;
+    }
+}
+
+@media(max-width:1155px){
+    .stem{
+        font-size: 80px;
+    }
+    .ff li{
+        font-size: 20px;
+    }
+    .que{
+        font-size: 32px;
+    }
+    .about{
+        font-size: 20px;
+    }
+    .pic2{
+        height: 240px;
+        width: 480px;
+    }
+    .career{
+        font-size: 32px;
+    }
+    .benefits{
+        font-size: 32px;
+    }
+    .female{
+        font-size: 32px;
+    }
+    .courses{
+        font-size: 32px;
+    }
+    .main{
+        font-size: 64px;
+    }
+    .up{
+        font-size: 32px;
+        height: 56px;
+        width: 56px;
+    }
+    .head{
+        font-size: 22px;
+    }
+    .ex{
+        font-size: 18px;
+    }
+    .im{
+        height: 200px;
+        width: 400px;
+    }
+    .head2{
+        font-size: 22px;  
+    }
+    .link{
+        font-size: 22px;
+    }
+    .pr{
+        font-size: 26px;
+    }
+    .pra{
+        font-size: 22px;
+    }
+    .copy{
+        font-size: 20px;
+        padding-left: 130px;
+    }
+
+}
+
+@media(max-width:830px){
+    .stem{
+        margin-left: 230px;
+    }
+    .li1{
+        margin-left: 170px;
+
+    }
+    .im{
+        margin-top: 180px;
+    }
+    .pic2{
+        height: 150px;
+        width: 300px;
+    }
+}
+
+@media(max-width:685px){
+    .stem{
+        margin-left: 180px;
+    }
+    .li1{
+        margin-left: 120px;
+    }
+    .head{
+        margin-left: 430px;
+    }
+    .copy{
+        padding-left:100px ;
+    }
+}
+
+@media(max-width:460px){
+    .stem{
+        font-size: 50px;
+        margin-left: 120px;
+    }
+    .ff li{
+        font-size: 12.5px;
+        margin-left: 15px;
+    }
+    .li1{
+        margin-left: 90px;
+    }
+    .que{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .about{
+        font-size: 12.5px;
+        margin-top: 7px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .pic2{
+        margin-right: 20px;
+        margin-left: 15px;
+        padding: 1.5px 1.5px;
+        height: 120px;
+        width: 240px;
+    }
+    .career{
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .benefits{
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .female{
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .courses{
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .main{
+        margin-top: 10px;
+    }
+    .head{
+        margin-top: 20px;
+        font-size: 16px;
+        margin-left: 260px;
+    }
+    .im{
+        height: 100px;
+        width: 200px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .ex{
+        margin: 5px 20px 20px ;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .up{
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+    }
+    .head2{
+        margin-top: 45px;
+        margin-bottom: 32px;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .link{
+        font-size: 17px;
+    }
+    .pr{
+        font-size: 18px;
+        margin-left: 80px;
+        margin-bottom: 5px;
+    }
+    .pra{
+        font-size: 16px;
+        margin-left: 80px;
+    }
+    .copy{
+        font-size: 14px;
+        padding-left: 14%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media(max-width:380px){
+    .stem{
+        margin-left: 20px;
+    }
+    .li1{
+        margin-left: 6px;
+    }
+    .ff li{
+        margin-left: 8px;
+    }
+    .head{
+        margin-left: 150px;
+    }
+}
+
+@media(max-width:350px){
+    .pic2{
+        height: 60px;
+        width: 120px;
+    }
+    .im{
+        height: 50px;
+        width: 100px;
+    }
+    .que{
+        margin-left: 7px;
+    }
+    .about{
+        margin-left: 7px;
+    }
+    .career{
+        margin-left: 7px;
+    }
+    .benefits{
+        margin-left: 7px;
+    }
+    .female{
+        margin-left: 7px;
+    }
+    .courses{
+        margin-left: 7px;
+    }
+    .main{
+        margin-left: 7px;
+    }
+    .head2{
+        margin-left: 7px;
+    }
+    .ex{
+        
+            margin-left: 7px;
+        }
+        .pr{
+          margin-left: 20px;
+        }
+        .pra{
+            
+                margin-left: 20px;
+            }
+        
+    
+}
+
+@media(max-width:325px){
+    .head2{
+        font-size: 12px;
+        font-weight: 900;
+        font-style: oblique;
+    }
+}
